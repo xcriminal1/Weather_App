@@ -1,5 +1,5 @@
 let weather = {
-    apiKey: "Your API",
+    apiKey: "91fd79522c815faa7005b479e67febd3",
     fetchWeather: function (city) {
       fetch(
         "https://api.openweathermap.org/data/2.5/weather?q=" +
@@ -51,4 +51,4 @@ let weather = {
       }
     });
   
-  weather.fetchWeather("Denver");
+  weather.fetchWeather("Kolkata");
